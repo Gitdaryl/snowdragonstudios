@@ -12,7 +12,7 @@ scene.add(light);
 // Load the GLB model
 const loader = new THREE.GLTFLoader();
 loader.load(
-  'https://github.com/your-username/your-repo-name/raw/main/models/674bc4f18dc7c6e19d4004cc.glb', // Your hosted GLB file URL
+  'https://github.com/Gitdaryl/snowdragonstudios/blob/master/674bc4f18dc7c6e19d4004cc.glb', // Your hosted GLB file URL
   function (gltf) {
     scene.add(gltf.scene);
   },
